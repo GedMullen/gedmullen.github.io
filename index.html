@@ -41,7 +41,7 @@
 	</script>
 	<pre>
 		<code class="java">
-package uk.ac.fife.staff;
+package uk.ac.forthvalley.staff;
 
 /**
  * This class represents lecturer instances.
@@ -53,9 +53,9 @@ public class Lecturer extends Person implements Qualifications, Experience {
 
 	public static void main(String[] args) {
 		Lecturer gedMullen = new Lecturer("Ged Mullen", Gender.MALE);
-		gedMullen.setProfilePictureDescription("Ygritte from Game of Thrones");
+		gedMullen.setProfilePictureDescription("TAPS - Timetabling Application Service");
 		gedMullen.setSubject("Software Development");
-		gedMullen.setCollege("Fife College, Scotland");
+		gedMullen.setCollege("Forth Valley College, Scotland");
 		String[] qualifications = { "BSc Information Systems, Staffordshire University (1990)",
 				"MSc Ethical Hacking, Abertay University (2011)" };
 		gedMullen.setQualifications(qualifications);
